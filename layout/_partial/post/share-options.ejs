@@ -1,20 +1,7 @@
-<div id="share-options-bar" class="share-options-bar" data-behavior="<%= sidebarBehavior %>">
-    <ul class="share-options">
-        <li class="share-option">
-            <a class="share-option-btn" target="new" href="<%= 'https://plus.google.com/share?url=' + post.permalink %>">
-                <i class="fa fa-google-plus"></i><span class=""><%= __('global.share_on_google_plus') %></span>
-            </a>
-        </li>
-        <li class="share-option">
-            <a class="share-option-btn" target="new" href="<%= 'https://www.facebook.com/sharer/sharer.php?u=' + post.permalink %>">
-                <i class="fa fa-facebook-official"></i><span><%= __('global.share_on_facebook') %></span>
-            </a>
-        </li>
-        <li class="share-option">
-            <a class="share-option-btn" target="new" href="<%= 'https://twitter.com/intent/tweet?text=' + post.permalink %>">
-                <i class="fa fa-twitter"></i><span><%= __('global.share_on_twitter') %></span>
-            </a>
-        </li>
-    </ul>
+<div class="ds-share flat" data-thread-key="<%= post.path %>" data-title="<%= post.title %>" data-url="<%= post.permalink %>">
+    <div class="ds-share-aside-right">
+      <div class="ds-share-aside-inner">
+      </div>
+      <div class="ds-share-aside-toggle">分享到</div>
+    </div>
 </div>
-<div id="share-options-mask" class="share-options-mask"></div>

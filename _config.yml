@@ -12,7 +12,6 @@
 # For developpers, if you modify this theme, put your images in `source/_images` folder and
 # use grunt task `build` to synchronize assets
 
-
 # Image directory (default: images)
 image_dir: assets/images
 
@@ -119,11 +118,6 @@ author:
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
     picture:
-    # Your Twitter username without the @. E.g : `tranquilpeak`
-    twitter:
-    # Your google plus profile id. E.g : `+Tranquilpeak` or `123812884128439`
-    google_plus:
-
 
 # Customization
 # Define the behavior of the sidebar
@@ -132,7 +126,7 @@ author:
 # 2: Display medium sidebar on large and medium screen and header bar on small screen and medium sidebar is swiped (default)
 # 3: Display header bar on all screens and large sidebar is swiped
 # 4: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 2
+sidebar_behavior: 1
 # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
 # Head title displayed at the top of the table of contents.
@@ -165,15 +159,13 @@ tag_pagination: true
 
 
 # Integrated services
-# Your Disqus shortname
-disqus_shortname:
+# Your duoshuo shortname
+duoshuo_shortname: zodiacg
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
+# Your Baidu stat tracking ID
+baidu_stat_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
 gravatar_email:
 # Your swiftype install key
 swiftype_install_key:
-# Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
-fb_admin_ids:
-# Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
-fb_app_id:
